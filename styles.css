@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+#searchBar {
+    margin: 10px;
+}
+/*
+#addNovel {
+    margin-bottom: 10px;
+}*/
+
+#novelList {
+    list-style-type: none;
+    padding: 0;
+}
+
+button {
+    margin: 5px;
+    align-content: left;
+}
+
+.novelItem {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+}

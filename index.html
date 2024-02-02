@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light Novel Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="mainContent">
+        <!-- Search Bar -->
+        <div id="searchBar">
+            <label for="searchInput">Search:</label>
+            <input type="text" id="searchInput" placeholder="Enter title, author, etc." onkeyup="searchNovels()">
+        </div>
+
+        <!-- Add new Light Novels -->
+        <div id="addNovelContainer">
+            <button id="addNovel" type="button" onclick="addNovel()">Add new Light Novel</button>
+            <!-- Search options will be dynamically added here -->
+        </div>
+
+        <!-- List of Light Novels -->
+        <div id="novelList">
+            <!-- Novel entries will be dynamically added here -->
+        </div>
+    </div>
+
+    <!-- Sidebar with Filters (to be added later) -->
+
+    <script src="scripts.js"></script>
+</body>
+</html>
